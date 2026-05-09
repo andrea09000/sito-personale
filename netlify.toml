@@ -1,0 +1,7 @@
+# Next.js con `output: "export"` → i file serviti sono in `out/`, non in `.next`
+[build]
+  command = "npm run build"
+  publish = "out"
+
+[build.environment]
+  NODE_VERSION = "20"
